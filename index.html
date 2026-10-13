@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f8f8f2">
+<title>OndeImóveis | Digital Imobiliário</title>
+<meta name="description" content="Tecnologia para o mercado imobiliário. Soluções digitais para imobiliárias, corretores e construtoras.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="OndeImóveis">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="https://www.ondeimoveis.com.br/bio">
+<meta property="og:title" content="OndeImóveis | Digital Imobiliário">
+<meta property="og:description" content="Sites para imobiliárias e corretores, tráfego pago, portal de imóveis e guia de bairros. Conheça as soluções digitais da OndeImóveis.">
+<meta property="og:image" content="https://www.ondeimoveis.com.br/site-media/og.png?v=1791933351">
+<meta property="og:image:alt" content="OndeImóveis | Digital Imobiliário">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="OndeImóveis | Digital Imobiliário">
+<meta name="twitter:description" content="Sites para imobiliárias e corretores, tráfego pago, portal de imóveis e guia de bairros. Conheça as soluções digitais da OndeImóveis.">
+<meta name="twitter:image" content="https://www.ondeimoveis.com.br/site-media/og.png?v=1791933351">
+<style>
+:root{--green:#20e64b;--green-dark:#0c3a20;--ink:#07110c;--muted:#536057;--paper:#f8f8f2;--pale:#eaf7e8}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,Arial,Helvetica,sans-serif}
+a{color:inherit;text-decoration:none}
+.hero{min-height:550px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;text-align:center;padding:38px 20px 54px;background:linear-gradient(90deg,rgba(249,248,239,.64),rgba(249,248,239,.88) 34%,rgba(249,248,239,.84) 65%,rgba(249,248,239,.25)),url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2000&q=85') center/cover}
+.hero:before,.hero:after{content:"";position:absolute;border:28px solid rgba(32,230,75,.06);border-radius:50%;width:330px;height:330px;pointer-events:none}
+.hero:before{left:-170px;top:30px}.hero:after{right:-180px;top:-170px}
+.hero-inner{position:relative;z-index:1;max-width:900px}
+.brand-icon{width:124px;height:124px;background:#020604;border-radius:35px;display:grid;place-items:center;margin:0 auto 16px;box-shadow:0 7px 22px #00190d22}
+.brand-icon svg{width:84px;height:84px}
+.brand-name{font-size:clamp(2.9rem,7.5vw,5.4rem);font-weight:850;letter-spacing:-2.5px;text-shadow:0 3px 10px rgba(0,0,0,.55),0 1px 3px rgba(0,0,0,.6);margin:0;line-height:1}
+.brand-name .green{color:#17d943}
+.eyebrow{font-size:.8rem;letter-spacing:.29em;font-weight:700;margin:12px 0 32px}
+h1{font-size:clamp(2.2rem,5vw,3.8rem);line-height:1.02;letter-spacing:-1.8px;margin:0 auto 18px;max-width:760px;font-weight:850}
+h1 span{color:#11752d}
+.hero p{font-size:clamp(1.25rem,2.8vw,2rem);line-height:1.4;margin:40px auto 0;max-width:800px}
+main{max-width:1040px;margin:auto;padding:0 26px}
+.section{padding:48px 0 26px}
+.section-title{text-align:center;font-size:clamp(1.7rem,3.5vw,2.3rem);letter-spacing:-1px;margin:0;font-weight:850}
+.green-line{height:5px;width:46px;background:var(--green);border-radius:99px;margin:14px auto 20px}
+.links{display:grid;gap:14px}
+.link-card{display:flex;align-items:center;gap:22px;min-height:94px;padding:13px 20px 13px 22px;background:rgba(255,255,255,.92);border:1px solid #edf0e9;border-radius:22px;box-shadow:0 9px 24px rgba(19,44,22,.08);transition:transform .2s,box-shadow .2s}
+.link-card:hover{transform:translateY(-3px);box-shadow:0 13px 28px rgba(19,44,22,.12)}
+.link-icon{flex:0 0 66px;width:66px;height:66px;border-radius:22px;background:#e5f8e5;display:grid;place-items:center}
+.link-icon svg{width:34px;height:34px;stroke:#07110c;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.link-copy{flex:1;min-width:0}
+.link-copy strong{display:block;font-size:clamp(1rem,2vw,1.25rem);letter-spacing:-.45px;margin-bottom:5px}
+.link-copy span{display:block;color:#3d4840;font-size:clamp(.9rem,1.6vw,1.05rem);line-height:1.35}
+.arrow{flex:0 0 42px;width:42px;height:42px;border-radius:50%;background:#f0f2f1;display:grid;place-items:center;font-size:27px;line-height:1;transition:background .2s}
+.link-card:hover .arrow{background:#dff9e4}
+.projects{margin:0 -4px 36px;background:linear-gradient(135deg,#e9f5e5,#f4f8ef);border-radius:28px;padding:28px 22px 0;text-align:center;overflow:hidden}
+.projects p{margin:8px 0 24px;color:#3d4840;font-size:1.05rem}
+.device-stage{position:relative;max-width:790px;margin:0 auto;height:340px;display:flex;align-items:flex-end;justify-content:center}
+.laptop{position:absolute;bottom:0;left:0;width:75%;z-index:1}
+.screen{border:10px solid #101916;border-bottom-width:14px;border-radius:16px 16px 5px 5px;aspect-ratio:1.65;background:#101916;overflow:hidden;box-shadow:0 8px 22px #1224192b}
+.screen img{width:100%;height:100%;object-fit:cover;display:block}
+.laptop-base{height:13px;background:linear-gradient(#cfd3d0,#727b75,#e9e9e6);clip-path:polygon(4% 0,96% 0,100% 100%,0 100%);border-radius:0 0 18px 18px}
+.phone{position:absolute;z-index:2;right:5%;bottom:0;width:24%;max-width:180px;padding:8px;border:5px solid #121a17;border-radius:30px;background:#101916;box-shadow:0 10px 24px #12241942}
+.phone img{width:100%;display:block;aspect-ratio:9/18;object-fit:cover;border-radius:19px}
+.cta{background:radial-gradient(circle at 0 120%,#12552e 0,transparent 35%),radial-gradient(circle at 100% 0,#0e3d23 0,transparent 35%),#001f11;color:#fff;border-radius:20px;padding:27px 32px;display:flex;align-items:center;justify-content:space-between;gap:24px;margin:0 0 25px}
+.cta-copy{display:flex;align-items:center;gap:18px}
+.chart-icon{width:48px;height:48px;flex:0 0 48px;background:#073b21;border-radius:13px;display:grid;place-items:center;color:var(--green);font-size:27px}
+.cta h2{font-size:clamp(1.45rem,3vw,2.1rem);line-height:1.1;margin:0 0 8px;letter-spacing:-.8px}
+.cta h2 span{color:var(--green)}
+.cta p{margin:0;color:#e0e9e2;line-height:1.4}
+.whatsapp{flex:0 0 auto;background:var(--green);color:#03180a;border-radius:999px;padding:18px 24px;display:flex;align-items:center;justify-content:center;gap:12px;font-weight:800;font-size:1.02rem;transition:filter .2s,transform .2s}
+.whatsapp:hover{filter:brightness(1.06);transform:translateY(-2px)}
+.whatsapp svg{width:26px;height:26px;stroke:currentColor;fill:none;stroke-width:2}
+.footer{display:flex;align-items:center;justify-content:center;gap:30px;padding:0 0 25px;flex-wrap:wrap}
+.footer-item{display:flex;align-items:center;gap:13px}
+.footer-icon{width:48px;height:48px;border:1px solid #d6dcd6;border-radius:50%;display:grid;place-items:center}
+.footer-icon svg{width:24px;height:24px;stroke:#0a1710;fill:none;stroke-width:1.8}
+.footer-item small{display:block;color:#505b53;margin-bottom:3px;font-size:.83rem}
+.footer-item strong{font-size:1rem}
+.footer-divider{height:42px;width:1px;background:#bdc6bd}
+.signature{text-align:center;color:#5b665d;font-size:.82rem;padding:0 0 22px}
+.signature span{display:inline-block;width:28px;height:1px;background:#c6cec6;vertical-align:middle;margin:0 10px}
+@media(max-width:650px){
+ .hero{min-height:480px;padding:38px 18px 48px;background-position:57% center}
+ .brand-icon{width:104px;height:104px;border-radius:29px}.brand-icon svg{width:70px;height:70px}
+ .brand-name{letter-spacing:-2px}.eyebrow{font-size:.67rem;margin-bottom:28px}
+ main{padding:0 15px}.section{padding-top:34px}.section-title{font-size:1.75rem}
+ .link-card{min-height:84px;gap:12px;padding:12px;border-radius:17px}
+ .link-icon{flex-basis:52px;width:52px;height:52px;border-radius:17px}.link-icon svg{width:29px;height:29px}
+ .link-copy strong{font-size:.96rem}.link-copy span{font-size:.82rem}
+ .arrow{flex-basis:32px;width:32px;height:32px;font-size:22px}
+ .projects{padding:24px 12px 0;border-radius:22px;margin-bottom:24px}
+ .projects p{font-size:.93rem}.device-stage{height:220px}
+ .screen{border-width:6px;border-bottom-width:9px;border-radius:10px 10px 3px 3px}
+ .laptop-base{height:8px}.phone{border-width:4px;border-radius:21px;padding:5px;right:2%;width:26%}.phone img{border-radius:14px}
+ .cta{padding:22px 18px;display:block;border-radius:17px}
+ .cta-copy{align-items:flex-start;gap:12px}.chart-icon{width:40px;height:40px;flex-basis:40px}
+ .cta h2{font-size:1.55rem}.cta p{font-size:.9rem}
+ .whatsapp{margin-top:20px;width:100%;padding:15px 12px;font-size:.95rem}
+ .footer{gap:16px;justify-content:space-around}.footer-item{gap:9px}.footer-icon{width:40px;height:40px}
+ .footer-item small{font-size:.73rem}.footer-item strong{font-size:.83rem}
+ .footer-divider{height:35px}.signature{font-size:.75rem}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="hero-inner">
+    <div class="brand-icon" aria-label="Símbolo OndeImóveis">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><g fill="none" stroke="#20e64b" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="5" width="50" height="47" rx="11"/><path d="M17 47 32 29 47 47"/><path d="M21 47v11h22V47"/></g></svg>
+    </div>
+    <div class="brand-name">Onde<span class="green">Imóveis</span></div>
+    <p>Soluções digitais para imobiliárias, corretores<br class="desktop-break"> e construtoras.</p>
+  </div>
+</header>
+
+<main>
+  <section class="section" id="solucoes">
+    <h2 class="section-title">Conheça nossas soluções</h2>
+    <div class="green-line"></div>
+    <div class="links">
+      <a class="link-card" href="https://www.ondeimoveis.com.br/para-empresas/sites-imobiliarios">
+        <div class="link-icon"><svg viewBox="0 0 40 40"><rect x="5" y="7" width="30" height="26" rx="4"/><path d="M5 14h30M10 10.5h.1M14 10.5h.1M18 10.5h.1"/></svg></div>
+        <div class="link-copy"><strong>Sites para imobiliárias e corretores</strong><span>Sites modernos, rápidos e focados em resultados.</span></div><div class="arrow">›</div>
+      </a>
+      <a class="link-card" href="https://www.ondeimoveis.com.br/">
+        <div class="link-icon"><svg viewBox="0 0 40 40"><path d="m4 18 16-13 16 13"/><path d="M9 16v19h22V16M16 35V23h8v12"/></svg></div>
+        <div class="link-copy"><strong>Conheça o portal OndeImóveis</strong><span>Divulgação de imóveis em um só lugar.</span></div><div class="arrow">›</div>
+      </a>
+      <a class="link-card" href="https://www.ondeimoveis.com.br/para-empresas/trafego-pago">
+        <div class="link-icon"><svg viewBox="0 0 40 40"><circle cx="17" cy="16" r="10"/><path d="m24.5 23.5 10 10M17 10v12M11 16h12"/></svg></div>
+        <div class="link-copy"><strong>Presença no Google e SEO local</strong><span>Facilite que clientes encontrem sua empresa na região.</span></div><div class="arrow">›</div>
+      </a>
+      <a class="link-card" href="https://www.ondeimoveis.com.br/guia">
+        <div class="link-icon"><svg viewBox="0 0 40 40"><path d="M20 36S9 26.5 9 18a11 11 0 0 1 22 0c0 8.5-11 18-11 18Z"/><circle cx="20" cy="18" r="4"/></svg></div>
+        <div class="link-copy"><strong>Guia de bairros e dicas de imóveis</strong><span>Conheça regiões e escolha melhor seu próximo imóvel.</span></div><div class="arrow">›</div>
+      </a>
+      <a class="link-card" href="https://www.ondeimoveis.com.br/para-empresas">
+        <div class="link-icon"><svg viewBox="0 0 40 40"><rect x="5" y="10" width="15" height="25" rx="1"/><path d="M20 18 28 13l7 4v18H20M10 16h4M10 22h4M10 28h4M25 22h2M31 22h1M25 28h2M31 28h1M25 34h2"/></svg></div>
+        <div class="link-copy"><strong>Soluções digitais para construtoras</strong><span>Sites e apresentação de empreendimentos.</span></div><div class="arrow">›</div>
+      </a>
+    </div>
+  </section>
+
+  <section class="cta" id="contato">
+    <div class="cta-copy">
+      <div class="chart-icon">▥</div>
+      <div><h2>Vamos fortalecer<br><span>sua presença digital?</span></h2><p>Converse com a gente e descubra como<br class="desktop-break"> podemos ajudar sua empresa.</p></div>
+    </div>
+    <a class="whatsapp" href="https://wa.me/5511976232235?text=Ol%C3%A1%2C%20quero%20conhecer%20as%20solu%C3%A7%C3%B5es%20digitais%20da%20OndeIm%C3%B3veis." target="_blank" rel="noopener">
+      <svg viewBox="0 0 32 32"><path d="M27 15.5a11.5 11.5 0 0 1-17 10L4 27l1.7-5.7A11.5 11.5 0 1 1 27 15.5Z"/><path d="M11 10c-.5 0-1 .5-1 1.2 0 4 5.2 9.5 9.4 9.5.8 0 1.7-.7 2-1.4l.5-1.3-3.2-1.6-1.3 1.4c-1.8-.6-3.3-2.1-4-3.8l1.1-1.3-1.5-2.7H11Z"/></svg>
+      Falar com a OndeImóveis <span style="font-size:1.5rem">›</span>
+    </a>
+  </section>
+
+  <footer class="footer">
+    <a class="footer-item" href="https://www.instagram.com/ondeimoveisapp/" target="_blank" rel="noopener">
+      <span class="footer-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg></span>
+      <span><small>Instagram</small><strong>@ondeimoveisapp</strong></span>
+    </a>
+    <div class="footer-divider"></div>
+    <a class="footer-item" href="https://www.ondeimoveis.com.br" target="_blank" rel="noopener">
+      <span class="footer-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg></span>
+      <span><small>Acesse nosso site</small><strong>ondeimoveis.com.br</strong></span>
+    </a>
+  </footer>
+  <div class="signature"><span></span> OndeImóveis | Digital Imobiliário <span></span></div>
+</main>
+</body>
+</html>
