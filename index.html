@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NSNZYERNPM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NSNZYERNPM');
+</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#f8f8f2">
@@ -24,7 +33,7 @@
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,Arial,Helvetica,sans-serif}
 a{color:inherit;text-decoration:none}
-.hero{min-height:550px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;text-align:center;padding:38px 20px 54px;background:linear-gradient(90deg,rgba(249,248,239,.64),rgba(249,248,239,.88) 34%,rgba(249,248,239,.84) 65%,rgba(249,248,239,.25)),url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=2000&q=85') center/cover}
+.hero{min-height:550px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;text-align:center;padding:38px 20px 54px;background:linear-gradient(90deg,rgba(249,248,239,.64),rgba(249,248,239,.88) 34%,rgba(249,248,239,.84) 65%,rgba(249,248,239,.25)),url('https://www.ondeimoveis.com.br/site-media/img-ea9b76ec-image-picsart-aiimageenhancer-2026-10-11.png') center/cover}
 .hero:before,.hero:after{content:"";position:absolute;border:28px solid rgba(32,230,75,.06);border-radius:50%;width:330px;height:330px;pointer-events:none}
 .hero:before{left:-170px;top:30px}.hero:after{right:-180px;top:-170px}
 .hero-inner{position:relative;z-index:1;max-width:900px}
@@ -80,7 +89,8 @@ main{max-width:1040px;margin:auto;padding:0 26px}
 @media(max-width:650px){
  .hero{min-height:480px;padding:38px 18px 48px;background-position:57% center}
  .brand-icon{width:104px;height:104px;border-radius:29px}.brand-icon svg{width:70px;height:70px}
- .brand-name{letter-spacing:-2px}.eyebrow{font-size:.67rem;margin-bottom:28px}
+ .brand-name{letter-spacing:-2px}
+ .hero p{font-size:1.12rem;text-wrap:balance}.hero p br{display:none}.eyebrow{font-size:.67rem;margin-bottom:28px}
  main{padding:0 15px}.section{padding-top:34px}.section-title{font-size:1.75rem}
  .link-card{min-height:84px;gap:12px;padding:12px;border-radius:17px}
  .link-icon{flex-basis:52px;width:52px;height:52px;border-radius:17px}.link-icon svg{width:29px;height:29px}
